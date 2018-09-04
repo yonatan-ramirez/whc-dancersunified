@@ -1,0 +1,197 @@
+/*!
+Theme Name: whc-dancerunified
+Theme URI: http://underscores.me/
+Author: Yonatan Ramirez
+Author URI: http://underscores.me/
+Description: DancerUnified
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: whc-dancer
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+whc-dancerunified is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography/typography";
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements/elements";
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+@import "forms/forms";
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "navigation/navigation";
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+@import "modules/accessibility";
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+@import "modules/alignments";
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+@import "modules/clearings";
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+@import "site/secondary/widgets";
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+@import "site/site";
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+@import "modules/infinite-scroll";
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@import "media/media";
+
+#Section1{
+	background: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background: linear-gradient( to bottom, rgba(255, 0, 106, 0.8) 25%, rgba(114, 81, 167, 0.8) 100%), url('https://dancersunified.com/wp-content/uploads/2018/08/dancers-home-hero.jpeg') no-repeat center center;
+}
+button{
+	background-color: rgba(255, 255, 255, 0.323);
+	border: 1px solid white !important;
+	color: white;
+	margin-top: 1rem;
+	padding: 2rem;
+}
+button:hover{
+	background-color: rgba(255, 255, 255, 0.412);
+}
+#Snippet{
+	width: 100%;
+	background:cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-bottom: 10px;
+	// position: absolute;
+	// opacity: .9;
+	height: 32px;
+	// background-color: blue;
+	background-image: url('https://dancersunified.com/wp-content/themes/dancers/img/photo-frame-bottom-white.png');
+}
+#Snippet2{
+	width: 100;
+	background: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-bottom: 10px;
+	height: 32px;
+	background-color: #b059b8;
+	background-image: url('https://dancersunified.com/wp-content/themes/dancers/img/torn-edge-bottom.png');
+}
+#Snippet3{
+	width: 100;
+	background: cover;
+	background-repeat: no-repeat;
+	background-position:top;
+	padding-bottom: 10px;
+	height: 32px;
+	background-color: #b059b8;
+	background-image: url('https://dancersunified.com/wp-content/themes/dancers/img/torn-edge-bottom.png');
+}
+#Section2{
+	padding-top: 3rem;
+}
+#whydancer{
+	color: #ff7aa2;
+}
+#para{
+	color: #813396;
+}
+#Section3{
+	bottom: -32px;
+	background-image: url(img/torn-edge-bottom.png);
+	background-position: center top;
+}
+#sign{
+	background-color: #8536bf;
+	border: 1px solid white;
+	color: white;
+}
+#Section4{
+	width: 100%;
+	color: #ff7aa2 !important;
+}
+#img{
+	background-color: #ff7aa2;
+	background-position: center;	
+	border-radius: 50%;
+	width: 50%;
+}
+#Section5{
+	padding-top:7rem;
+	color: white;
+	background: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background: url('https://dancersunified.com/wp-content/uploads/2018/06/home-page-box.jpg');
+	#learn{
+		background-color: white;
+		border: 1px solid pink;
+		color: #ff7aa2;
+	}
+}
